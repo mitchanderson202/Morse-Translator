@@ -67,4 +67,5 @@ The User Interface will have to look good but should remain simple (additional f
 - Cover more than just A-Z characters
 - Store translation in a json file
 - Do fancy things with sound or flashes (only if you have heaps of spare time)
+
 # Morse-Translator
