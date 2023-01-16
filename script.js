@@ -83,8 +83,8 @@ const morseToEnglish = (text) => {
   return englishWords.join(" ");
 };
 
-let englishToMorseBtn = document.querySelector(".main__english--submit");
-let morseToEnglishBtn = document.querySelector(".main__morse--submit");
+const englishToMorseBtn = document.querySelector(".main__english--submit");
+const morseToEnglishBtn = document.querySelector(".main__morse--submit");
 
 englishToMorseBtn.addEventListener("click", (e) => {
   e.preventDefault();
@@ -105,8 +105,3 @@ morseToEnglishBtn.addEventListener("click", (e) => {
     englishTranslation;
   document.querySelector(".main__morse--text").value = "";
 });
-
-module.exports = {
-  englishToMorse,
-  morseToEnglish,
-};

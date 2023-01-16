@@ -63,10 +63,14 @@ main section {
 
 .main__morse--translator {
   font-size: 2em;
+  margin-left: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .main__english {
+    display: block;
+  }
+  .main__morse {
     display: block;
   }
 }/*# sourceMappingURL=styles.css.map */
