@@ -54,7 +54,7 @@ const morse = {
   $: "...-..-",
 };
 
-function englishToMorse(text) {
+export const englishToMorse = (text) => {
   let englishWords = text.split(" ");
   let morseWords = englishWords.map((word) => {
     let morseWord = word.split("").map((char) => {
@@ -63,9 +63,9 @@ function englishToMorse(text) {
     return morseWord.join(" ");
   });
   return morseWords.join("<br>");
-}
+};
 
-const morseToEnglish = (text) => {
+export const morseToEnglish = (text) => {
   let morseWords = text.split("\n");
   let englishWords = morseWords.map((word) => {
     let englishWord = "";

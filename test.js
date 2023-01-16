@@ -1,4 +1,4 @@
-const { englishToMorse, morseToEnglish } = require("./script.js");
+import { englishToMorse, morseToEnglish } from "./script.js";
 
 describe("English to Morse", () => {
   it("should convert the word 'hello' to '.... . .-.. .-.. ---'", () => {
