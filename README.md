@@ -16,8 +16,10 @@ For the first time we had to introduce our own testing by adding atleast 2 test 
 ## Links
 
 Check it our here:
+https://mitchanderson202.github.io/Morse-Translator/
 
 Repository:
+https://github.com/mitchanderson202/Morse-Translator
 
 ## Stack
 
