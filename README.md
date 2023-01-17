@@ -1,10 +1,3 @@
-## Submission
-
-- Create an empty main branch
-- Do all work in develop branch
-- Add coach who is doing 1:1 as a contributor to your repo
-- Tag coach in PR from develop branch into main for 1:1
-
 # Morse Code Translator
 
 ## Outline
