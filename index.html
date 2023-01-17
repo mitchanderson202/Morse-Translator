@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Morse Translator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Morse Code Translator</h1>
+    </header>
+    <article>
+      <p>
+        Welcome to Morse Code Translator. Input some English text and receive a
+        Morse Code Translation. Alternatively, you can input some Morse Code for
+        an English Translation.
+        <br />
+        Have fun.
+      </p>
+    </article>
+    <main>
+      <section class="main__english">
+        <div>
+          <h4>Enter ENGLISH text here:</h4>
+          <form>
+            <textarea class="main__english--text"></textarea>
+            <button class="main__english--submit">Submit</button>
+          </form>
+        </div>
+        <div>
+          <h4>Translation:</h4>
+          <p class="main__english--translator"></p>
+        </div>
+      </section>
+
+      <section class="main__morse">
+        <div>
+          <h4>Enter MORSE here: (seperate words by "Enter")</h4>
+          <form>
+            <textarea class="main__morse--text"></textarea>
+            <button class="main__morse--submit">Submit</button>
+          </form>
+        </div>
+        <div>
+          <h4>Translation:</h4>
+          <p class="main__morse--translator"></p>
+        </div>
+      </section>
+    </main>
+    <script src="./scripts/script.js" type="module"></script>
+  </body>
+</html>
