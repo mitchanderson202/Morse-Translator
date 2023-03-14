@@ -2,7 +2,7 @@
 
 ## Demo & Snippets
 
-Add images
+<img width="652" alt="MorseCodeTranslator" src="https://user-images.githubusercontent.com/78459081/224871570-6a408ea5-2296-4cad-8f84-f5df4932a2a1.png">
 
 ---
 
